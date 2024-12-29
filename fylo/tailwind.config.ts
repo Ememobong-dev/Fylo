@@ -13,6 +13,8 @@ export default {
         foreground: "var(--foregroun'd)",
         cyan: 'hsl(176, 68%, 64%)',
         cyanBlue: 'hsl(198, 60%, 50%)',
+        mainBodyBlue: 'hsl(218, 28%, 13%)',
+        navbarBlue: 'hsl(217, 28%, 15%)',
       },
     },
   },

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div className="w-full py-8 px-14">
+    <div className="w-full bg-navbarBlue py-8 px-14 ">
         <div className='flex justify-between items-center'>
             <div className='brandImg'>
                 <Image src={brandLogo} alt="brand image" />

@@ -8,15 +8,15 @@ import curvyBG from '@/assets/images/bg-curvy-desktop.svg';
 
 const Header = () => {
   return (
-    <div className='w-full' >
-        <div className='flex items-center flex-col text-center py-16'>
+    <div className='w-full bg-navbarBlue' >
+        <div className='flex items-center flex-col text-center'>
             <span className='header_illustration h-2/5 '>
                 <Image src={illustrationIntro} className='w-4/5 mx-auto' alt='illustration intro' />
             </span>
             <h2 className='text-[36px] text-center w-4/5 mx-auto' >All your files in one secure location,  <br /> accessible anywhere. </h2>
             {/* Curvy Background with Text Overlay */}
             <div className="relative w-full">
-                <Image src={curvyBG} className="w-full" alt="Curvy Background" />
+                <Image src={curvyBG} className="w-full h-[400px]" alt="Curvy Background" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
                     <p className="text-base -mt-24  font-medium text-center leading-relaxed">
                         Fylo stores all your most important files in one secure location. <br />
